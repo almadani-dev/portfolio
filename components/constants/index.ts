@@ -5,10 +5,10 @@ import projectThree from "@/public/images/projectThree.png";
 
 export const navbarData = [
   { title: "Home", href: "/" },
-  { title: "Services", href: "/services" },
-  { title: "Resume", href: "/resume" },
-  { title: "Work", href: "/work" },
-  { title: "Contact", href: "/contact" },
+  { title: "Services", href: "#services" },
+  { title: "Resume", href: "#resume" },
+  { title: "Work", href: "#work" },
+  { title: "Contact", href: "#contact" },
 ];
 
 export const statusData = [
