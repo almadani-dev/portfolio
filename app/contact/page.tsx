@@ -1,5 +1,4 @@
 "use client";
-import ContactForm from "@/components/ContactForm";
 import Container from "@/components/Container";
 import SocialLinks from "@/components/SocialLinks";
 import { Mail, MapPinCheck, Phone } from "lucide-react";

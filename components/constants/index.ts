@@ -1,4 +1,4 @@
-import { Briefcase, Code2, GraduationCap, User, Phone } from "lucide-react";
+import { Briefcase, Code2, GraduationCap, User } from "lucide-react";
 import projectOne from "@/public/images/projectOne.png";
 import projectTwo from "@/public/images/projectTwo.png";
 import projectThree from "@/public/images/projectThree.png";

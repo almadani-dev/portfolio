@@ -23,23 +23,10 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 const WorkPage = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const handleSlideChange = (index: number) => {
-    setCurrentIndex(index);
-  };
   return (
     <div>
       <PageLayout className="py-6 md:py-12">
-        <Carousel
-          opts={{ align: "start", loop: true }}
-          className="w-full"
-          onSelect={() => {
-            const index = 0;
-            if (typeof index === "number") {
-              handleSlideChange(index);
-            }
-          }}
-        >
+        <Carousel opts={{ align: "start", loop: true }} className="w-full">
           <CarouselContent>
             {projects?.map((project) => (
               <CarouselItem key={project?.id}>
