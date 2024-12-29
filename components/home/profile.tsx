@@ -29,9 +29,9 @@ const Profile = () => {
             </div>
           </div>
           <Button
-            // onClick={() => {
-            //   window.open("./cv.pdf", "_blank");
-            // }}
+            onClick={() => {
+              window.open("./cv.pdf", "_blank");
+            }}
             className=" bg-transparent rounded-full border border-hovercolor/50 text-hovercolor hover:bg-hovercolor hover:text-black hoverEffect h-11"
           >
             Download cv <Download />

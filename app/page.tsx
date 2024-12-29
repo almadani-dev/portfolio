@@ -1,17 +1,16 @@
 import Container from "@/components/Container";
 import Profile from "@/components/home/profile";
-import ServicesPage from "./services/page";
-import ResumePage from "./resume/page";
-import WorkPage from "./work/page";
-import ContactPage from "./contact/page";
-
+// import ServicesPage from "./services/page";
+// import ResumePage from "./resume/page";
+// import WorkPage from "./work/page";
+// import ContactPage from "./contact/page";
 
 export default function Home() {
   return (
     <div className="bg-bodycolor text-white/80 ">
       <Container>
         <Profile />
-        <div>
+        {/* <div>
           <h1
             id="services"
             className="mt-52 text-hovercolor text-4xl md:text-6xl tracking-normal"
@@ -42,7 +41,7 @@ export default function Home() {
           </h1>
 
           <ContactPage />
-        </div>
+        </div> */}
       </Container>
     </div>
   );
